@@ -55,6 +55,7 @@ describe('TestTrackConfig', () => {
         expect(TestTrackConfig.getCookieName()).toBe('custom_cookie_name');
       });
     });
+  });
 
     describe('when there is no configured cookie name', () => {
       beforeEach(() => {
